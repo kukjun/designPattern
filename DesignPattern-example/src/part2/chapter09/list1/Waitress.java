@@ -1,22 +1,22 @@
-package part2.chapter09;
+package part2.chapter09.list1;
 
 public class Waitress {
 
   PancakeHouseMenu pancakeHouseMenu;
-  DinerMenu dinerMenu;
+  DinnerMenu dinnerMenu;
 
-  public Waitress(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerMenu) {
+  public Waitress(PancakeHouseMenu pancakeHouseMenu, DinnerMenu dinnerMenu) {
     this.pancakeHouseMenu = pancakeHouseMenu;
-    this.dinerMenu = dinerMenu;
+    this.dinnerMenu = dinnerMenu;
   }
 
   public void printMenu() {
     Iterator pancakeIterator = pancakeHouseMenu.createIterator();
-    Iterator dinerIterator = dinerMenu.createIterator();
+    Iterator dinnerIterator = dinnerMenu.createIterator();
     System.out.println("메뉴\n---\n아침 메뉴");
     printMenu(pancakeIterator);
     System.out.println("메뉴\n---\n점심 메뉴");
-    printMenu(dinerIterator);
+    printMenu(dinnerIterator);
   }
 
   public void printMenu(Iterator iterator) {

@@ -1,4 +1,4 @@
-package part2.chapter09;
+package part2.chapter09.list2;
 
 public class MenuItem {
   String name;

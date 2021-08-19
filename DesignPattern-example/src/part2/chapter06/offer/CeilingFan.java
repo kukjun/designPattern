@@ -11,6 +11,7 @@ public class CeilingFan {
 	public CeilingFan(String location) {
 		this.location = location;
 	}
+
   
 	public void high() {
 		// turns the ceiling fan on to high

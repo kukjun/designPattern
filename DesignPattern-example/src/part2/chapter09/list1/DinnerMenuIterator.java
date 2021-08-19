@@ -1,11 +1,11 @@
-package part2.chapter09;
+package part2.chapter09.list1;
 
-public class DinerMenuIterator implements Iterator {
+public class DinnerMenuIterator implements Iterator {
 
   MenuItem[] items;
   int position = 0;
 
-  public DinerMenuIterator(MenuItem[] items) {
+  public DinnerMenuIterator(MenuItem[] items) {
     this.items = items;
   }
 

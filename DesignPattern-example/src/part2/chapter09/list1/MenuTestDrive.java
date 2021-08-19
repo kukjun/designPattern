@@ -1,12 +1,12 @@
-package part2.chapter09;
+package part2.chapter09.list1;
 
 public class MenuTestDrive {
 
   public static void main(String[] args) {
     PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
-    DinerMenu dinerMenu = new DinerMenu();
+    DinnerMenu dinnerMenu = new DinnerMenu();
 
-    Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu);
+    Waitress waitress = new Waitress(pancakeHouseMenu, dinnerMenu);
 
     waitress.printMenu();
   }

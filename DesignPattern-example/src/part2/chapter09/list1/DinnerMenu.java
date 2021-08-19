@@ -1,11 +1,11 @@
-package part2.chapter09;
+package part2.chapter09.list1;
 
-public class DinerMenu {
+public class DinnerMenu {
   static final int MAX_ITEMS = 6;
   int numberOfItems = 0;
   MenuItem[] menuItems;
 
-  public DinerMenu() {
+  public DinnerMenu() {
     menuItems = new MenuItem[MAX_ITEMS];
     addItem("채식주의자용 BLT", "통밀 위에 (식물성)베이컨, 상추, 토마토를 얹은 메뉴", true, 2.99);
     addItem("BLT", "통밀 위에 베이컨, 상추, 토마토를 얹은 메뉴", false, 2.99);
@@ -24,7 +24,7 @@ public class DinerMenu {
   }
 
   public Iterator createIterator() {
-    return new DinerMenuIterator(menuItems);
+    return new DinnerMenuIterator(menuItems);
   }
 
 }
