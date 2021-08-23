@@ -22,6 +22,7 @@ public class MenuTestDrive {
 
     dinnerMenu.add(new MenuItem("채식주의자용 BLT", "통밀 위에 (식물성)베이컨, 상추, 토마토를 얹은 메뉴", true, 2.99));
     dinnerMenu.add(new MenuItem("BLT", "통밀 위에 베이컨, 상추, 토마토를 얹은 메뉴", false, 2.99));
+
     dinnerMenu.add(new MenuItem("오늘의 스프", "감자 샐러드를 곁들인 오늘의 스프", false, 3.29));
     dinnerMenu.add(new MenuItem("핫도그", "사워크라우트, 갖은 양념, 양파, 치즈가 곁들여진 핫도그", false, 3.05));
     dinnerMenu.add(new MenuItem("파스타", "마리나라 소스 스파게트, 효모빵도 드립니다.", true, 2.59));
