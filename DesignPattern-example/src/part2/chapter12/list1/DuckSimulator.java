@@ -52,11 +52,18 @@ public class DuckSimulator {
 
     System.out.println("\nDuck Simulator: Whole Flock Simulation");
     simulate(flockOfDucks);
+    System.out.println("The ducks quacked " + QuackCounter.getQuack() + "times");
 
     System.out.println("\nDuck Simulator: Mallard Flock Simulation");
     simulate(flockOfMallards);
-
     System.out.println("The ducks quacked " + QuackCounter.getQuack() + "times");
+
+    System.out.println("\nDuck Simulator: With Observer");
+    Quackologist quackologist = new Quackologist();
+    flockOfDucks.registerObserver(quackologist);
+    simulate(flockOfDucks);
+    System.out.println("The ducks quacked " + QuackCounter.getQuack() + "times");
+
   }
 
   void simulate(Quackable duck) {

@@ -2,7 +2,6 @@ package part2.chapter12.list1;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Observer;
 
 public class Observable implements QuackObservable {
 
@@ -23,6 +22,8 @@ public class Observable implements QuackObservable {
     while (iterator.hasNext()) {
       Observer observer = (Observer) iterator.next();
       observer.update(duck);
+    }
+
   }
 
 }
