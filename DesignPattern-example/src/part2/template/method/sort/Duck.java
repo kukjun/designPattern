@@ -1,4 +1,4 @@
-package part2.chapter08.list3;
+package part2.template.method.sort;
 
 public class Duck implements Comparable{
   String name;

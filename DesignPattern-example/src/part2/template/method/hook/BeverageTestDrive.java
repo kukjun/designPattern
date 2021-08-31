@@ -1,4 +1,4 @@
-package part2.chapter08.list2;
+package part2.template.method.hook;
 
 public class BeverageTestDrive {
 

@@ -1,4 +1,4 @@
-package part2.chapter08.list5;
+package part2.template.method.list5;
 
 import java.applet.Applet;
 import java.awt.*;

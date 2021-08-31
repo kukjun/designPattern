@@ -1,4 +1,4 @@
-package part2.chapter08.list2;
+package part2.template.method.hook;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,6 +16,8 @@ public class TeaWithHook extends CaffeineBeverageWithHook{
     System.out.println("레몬즙을 추가합니다.");
   }
 
+
+  // hook 서브클래스 오버라이딩
   @Override
   public boolean customerWantsCondiments() {
     String answer = getUserInput();

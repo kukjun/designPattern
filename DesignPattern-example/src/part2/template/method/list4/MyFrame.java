@@ -1,4 +1,4 @@
-package part2.chapter08.list4;
+package part2.template.method.list4;
 
 import javax.swing.*;
 import java.awt.*;

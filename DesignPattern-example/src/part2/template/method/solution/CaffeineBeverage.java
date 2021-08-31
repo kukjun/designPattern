@@ -1,4 +1,4 @@
-package part2.chapter08.list1;
+package part2.template.method.solution;
 
 public abstract class CaffeineBeverage {
 
